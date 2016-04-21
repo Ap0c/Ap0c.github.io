@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<title>How Does A Computer Think?</title>
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<nav>
+		<a href="/list.html">Articles</a>
+	</nav>
+	<hr>
+	<main><h1>How Does A Computer Think?</h1>
+<p>Computers are, in simple terms, clever ways of manipulating electricity to do maths. At the core of every computer is the processor or CPU (central processing unit), the part that does the actual 'thinking'. Modern processors are incredibly sophisticated and elegant constructions, but the basic principle upon which they are built is relatively straightforward.</p>
+<h2>Electricity</h2>
+<p>Computers, like so many other things in the modern world, rely on electricity to do their job. Electricity itself is based on tiny particles called electrons, which flow through wires and carry energy to wherever it is needed. You can imagine that these electrons moving through the wire are like water flowing along a river. When the river branches into different streams, it is analogous to electricity being carried off to different parts of a circuit. If you were to place water mills on each of those streams, the water would drive their wheels and produce work (grinding corn and so forth), just as electricity is used to power electronic components.</p>
+<figure>
+<canvas id="electrons-anim" width="500" height="400">
+    <p>Your browser does not support this animation, please try a recent version of Firefox, Safari or Chrome.</p>
+</canvas>
+<figcaption>Figure 1 - Electrons flowing round a circuit, delivering power to a lightbulb.</figcaption>
+</figure>
+
+<p>For some electronic components, lightbulbs, motors and so on, the most important property of electricity is its ability to do work. A lightbulb, for example, will take the electricity passed to it and use it to produce light (and some waste heat), while a motor will use it to produce motion. A computer processor, however, is more interested in the ability to move electricity around than it is in getting it to do work. By splitting the flow of electricity up into a number of different input channels, and then combining these channels in different ways to produce an output, the processor is able to perform calculations.</p>
+<h2>Making Things Simple for Computers</h2>
+<p>The method by which these channels of information are combined is based upon a branch of mathematics called Boolean algebra, which can be used to perform calculations using something called the <em>binary number system</em>. Although this may sound a little complicated, it is actually one of the simpler topics in mathematics. However, we will not get into it here for the sake of keeping things brief. Instead we will simply say that humans think and communicate using complex constructs, such as words and images, whereas computers are very basic, and only understand how to think using electricity. In order for computers to be useful to us, we need a way of representing things like words in a simple format that computers can work with. This format is the binary number system, and everything that a computer does is represented as a series of <code>1</code>s and <code>0</code>s.</p>
+<figure>
+<!-- <canvas id="binary-anim" width="600" height="400">
+    <p>Your browser does not support this animation, please try a recent version of Firefox, Safari or Chrome.</p>
+</canvas> -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 600 400">
+    <!-- Sections -->
+    <rect id="human-side" x="0" y="0" width="300" height="400" />
+    <rect id="computer-side" x="300" y="0" width="300" height="400" />
+    <text id="human-heading" class="binary-heading" x="80" y="50">Human Level</text>
+    <text id="computer-heading" class="binary-heading" x="360" y="50">Computer Level</text>
+    <rect class="image-lines" x="100" y="100" width="100" height="80" />
+    <rect class="image-lines" x="110" y="110" width="80" height="60" />
+    <path class="image-lines" d="M 120 170 l 20 -40 l 15 30 l 15 -20 l 15 30" />
+    <text class="binary-representation binary-text" x="360" y="150">01001000101010101</text>
+    <!-- Asimov Quote -->
+    <text class="asimov-quote binary-text" x="45" y="250">The true delight is in the</text>
+    <text class="asimov-quote binary-text" x="45" y="275">finding out rather than in</text>
+    <text class="asimov-quote binary-text" x="45" y="300">the knowing.</text>
+    <text class="asimov-quote binary-text" x="120" y="335">- Isaac Asimov</text>
+    <text class="binary-representation binary-text" x="360" y="265">01010100 01101000</text>
+    <text class="binary-representation binary-text" x="360" y="290">01100101 00100000...</text>
+</svg>
+<figcaption>Figure 2 - Images and words are concepts that humans understand, but they have to be translated into streams of <code>1</code>s and <code>0</code>s to allow computers to work with them.</figcaption>
+</figure>
+
+<p>Let's now go back to thinking about electricity in the context of streams and rivers. Whenever you have a stream with water flowing through it, it is said to represent the value <code>1</code> in binary. If a stream is blocked, so that no water is able to flow through it, it represents the value <code>0</code> in binary. Swap out the idea of a stream for a wire, and the water for electricity, and that is how a computer works. Complicated concepts such as words and images are represented as <code>1</code>s and <code>0</code>s, which then directly translate into streams (and sometimes stationary pools) of electricity, which the computer can work with directly.</p>
+<h2>Thinking with the Transistor</h2>
+<p>Now, the question that remains is what we mean by "working with" this electricity. How does the computer, specifically the processor, manipulate this information once it has been converted into electronic form? The answer to this lies with one of the most important and transformative inventions of the 20th century: the <strong>transistor</strong>. This simple electronic component is what makes the modern computer possible, as it allows the processor to control the flow of electricity. Returning once again to our streams analogy, the transistor can be thought of as a sluice gate, called upon to facilitate or prevent the passage of water as needed.</p>
+<p>The process by which a computer performs calculations follows from this idea. A series of streams are set up to represent information in binary form, some containing water, some empty. The processor is told what sort of calculation it needs to perform on these input streams, and sets up the sluice gates (transistors) accordingly. The water is then allowed to flow through the system, combining and splitting according to the rules of Boolean algebra. The result is a series of output streams, some of which are full of water (<code>1</code>s), some of which are empty (<code>0</code>s). These contain the result of the calculation in binary form, which can in turn be passed back to the user in human-readable form.</p>
+<p>A simple example of this can be given by considering a simple processor set up to perform the job of a calculator. We will use it to add together the numbers 2 and 3. First we will set up the processor, manipulating the transistors (sluice gates) to perform an addition. Then we convert the numbers 2 and 3 to binary form (<code>10</code> and <code>11</code>), and place them on the input wires. We allow the processor to run (also known as clocking), and the result is a combination of the inputs to produce a binary 5 (<code>101</code>) on the output wires.</p>
+<h2>The End</h2>
+<p>And that's it, the basic principles that form the core of every modern computer. Since the invention of the transistor the pace of development of computer hardware has been astonishing. At this point modern smartphones manage to pack <em>billions</em> of transistors into chips approximately the size of a fingernail, and are capable of performing <em>billions</em> of calculations per second with them. But at their heart, they are simply converting information into <code>1</code>s and <code>0</code>s, and manipulating it with electricity.</p>
+<script type="text/javascript" src="./anims.js"></script></main>
+</body>
+</html>

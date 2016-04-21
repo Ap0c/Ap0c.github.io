@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<title>The Internet And The Web</title>
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="./">
+</head>
+<body>
+	<nav>
+		<a href="/list.html">Articles</a>
+	</nav>
+	<hr>
+	<main><h1>The Internet And The Web</h1>
+<p>The internet and the web: are these just two different words for the same thing? As it turns out, no they're not, although these days the two terms often get used interchangeably. In this article we will attempt to understand what each of these words mean, and what the differences are between them.</p>
+<h2>The Internet - A Network of Networks</h2>
+<p>The principles on which the internet is based are very simple, and that is part of the reason why it has become so successful. In order to understand them, we're going to imagine that the internet does not exist yet, and we've been tasked with building it from scratch. Conveniently we happen to have a limitless supply of computers, cables and other bits and bobs lying around, so let's get started.</p>
+<p>First, we're going to take a small group of ten computers and connect them all together with cables so that they can talk to one another. This construction, a group of computers in communication with one another, is called a network. While they're connected, they can use applications to send all sorts of information back and forth, including but not limited to: webpages, emails, messages, images and videos. This seems quite useful, so let's create a few more groups like this, perhaps spread out over a few different geographical locations across the country, so that other groups of people can benefit.</p>
+<p>So far, so good, but there's a limitation with this system. If someone is on network A and wants access to a file on network B, they're required to travel across to the physical location of network B in order to retrieve it. This isn't so great, and rather limits the use of the networks that we're building, so let's update things a bit. We're going to take a bundle of extremely long cables and use them to connect together all the disparate networks that are spread across the country, resulting in a much larger 'network of networks'. This is a term commonly used to describe the internet, we're getting close.</p>
+<p>Now we have expanded our network to include computers all over the country, but what about other nations? They probably have a lot of interesting stuff going on too right? It would be great if we could share things with them too, so let's do that by getting some even larger (and more robust, some of these places are overseas) cables and using them to connect up all the different countries around the world. Excellent, we now have something that closely resembles the ARPANET, the precursor to the internet that was used to connect up academic institutions all over the world. To get to the modern day internet we add a few more techniques for sending information across the cables, allow pretty much anyone with a computer to connect to our network of networks, and then sit back to marvel at how rapidly this thing starts to grow.</p>
+<h3>Addresses</h3>
+<p>Now, we have this massive network of computers all connected up to one another, and that's great, but at this point you might be wondering something. Say you were using one of the computers in this network and you wanted to send a message to another, specific computer, perhaps one owned by a friend. How on Earth do you identify her computer among the thousands of other machines? Well, as it turns out, this problem is analogous to the one faced by postal systems around the world, and the internet uses a similar solution.</p>
+<p>Just as every house has an address (and possibly a postcode), every computer on the network also has an address, called an Internet Protocol (IP) address, by which it can be identified. In the physical world, if you want to send a letter to someone you drop it into an envelope carrying the address of the recipient, and send it off into the postal system. Similarly, whenever you want to send a message to another computer, you simply add an IP address and send it off into the network.</p>
+<h3>Domain Names</h3>
+<p>The above explains how computers find one another on a network, but it leads to another question. If IP addresses are so vital to every interaction that occurs on the internet, how come we, the users, don't see all that much of them? There are a few reasons, but the most basic one is that they are frankly awkward for humans to work with. They currently come in two main forms:</p>
+<ul>
+<li>IPv4 - A collection of four group of numbers, e.g. 192.168.1.100.</li>
+<li>IPv6 - A collection of eight groups of hexadecimal digits, e.g. 02a3:54cb:0002:10ff:edc8:7dd5:16aa:cb86.</li>
+</ul>
+<p>Imagine having to type one of those in every time you wanted to visit a website or send an email to someone. This is an example of a common situation, in which computers and humans do not see eye-to-eye on the formats they each like to work with. Computers like IP addresses, but humans would prefer something more readable.</p>
+<p>The solution is to let humans work with memorable names like <code>google.co.uk</code> or <code>facebook.com</code>, and translate these into the versions that computers like behind the scenes. This is referred to as the Domain Name System, or DNS for short, and its most common use on the internet is to convert the human-friendly 'domain names', into computer-friendly IP addresses. In this sense it works much like a contacts book (or app). Instead of having to memorise every piece of contact information about everyone you know, you look up their name in your contacts, and from there you get their phone number, address, and whatever else you need.</p>
+<p>Similarly, around the internet are distributed a number of special computers called DNS servers, that act like contact books for all the other computers on the network. When a computer is given an address in, as far as it is concerned, awkward human form, it goes to the nearest DNS server and asks for the IP address that this human address corresponds to. It can then exchange messages with the computer located at that address.</p>
+<p>It is important to remember that DNS is not a compulsory part of the internet, which could function without it. It is an application added to make the network of networks more accessible for human use. This concept of an application, running on top of the internet, as it were, is fundamental to understanding the distinction between the web and the internet itself.</p>
+<h2>The Web - Running On Top of the Internet</h2>
+<p>In the description of the internet above, I endeavoured to steer clear of any discussion of websites or the web in general. I did this to avoid adding to the confusion that often leads people to believe the two technologies are in fact one and the same. Part of the reason that this happens is that the web is the internet's biggest success story, and the thing that most people tend to use the internet for. However, the web is in fact just one of many services that the internet is used to provide.</p>
+<p>The internet, at its heart, is just a series of connections between computers. It doesn't know anything about webpages, or emails, or videos of cats, it simply carries information back and forth as instructed. Over the years a series of different applications, or 'apps', have been developed to make use of the internet for sending information back and forth. The web is one such application. It uses special groupings of letters and numbers, known as URLs (Uniform Resource Locators if you're interested), to let people access files on computers all around the world. In the most common case, a web browser is used to get these files, and display them to the user. The outcome: millions and millions of websites accessible from billions of devices across the world.</p>
+<p>If the web is the most widely used application running on the internet, then email is probably next on the list.</p>
+<ul>
+<li>HTTP(S), FTP, </li>
+</ul>
+<script type="text/javascript" src="./"></script></main>
+</body>
+</html>

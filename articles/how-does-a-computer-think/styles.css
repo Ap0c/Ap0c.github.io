@@ -1,0 +1,68 @@
+/* ----- Animations ----- */
+
+canvas {
+	width: 90%;
+	margin: 2% 5%;
+}
+
+#electrons-anim {
+	width: 70%;
+	margin: 2% 15%;
+}
+
+
+/* ----- Figures ----- */
+
+figure {
+	margin: 2% 0 5%;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+
+
+/* ----- Drawings ----- */
+
+svg {
+	width: 90%;
+	margin: 2% 5%;
+}
+
+#human-side {
+	fill: #a8b6bf;
+}
+
+#computer-side {
+	fill: #c9d8c5;
+}
+
+.binary-heading {
+	font-size: x-large;
+}
+
+#human-heading {
+	fill: #c9d8c5;
+}
+
+#computer-heading {
+	fill: #a8b6bf;
+}
+
+.binary-text {
+	font-size: large;
+}
+
+.asimov-quote {
+	fill: #c9d8c5;
+}
+
+.binary-representation {
+	fill: #a8b6bf;
+}
+
+.image-lines {
+	fill: transparent;
+	stroke: #c9d8c5;
+}
