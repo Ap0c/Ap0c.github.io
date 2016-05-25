@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head>
+<meta charset="UTF-8"/>
+<title>Wave-Particle Duality</title>
+<link rel="stylesheet" href="/base.css">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<nav>
+		<a href="/list.html">Articles</a>
+	</nav>
+	<hr>
+	<main><h1>Wave-Particle Duality</h1>
+<p>What follows is an explanation for why certain objects in nature can be thought of as both a particle and a wave. It is not an in-depth discussion of the physics or the mathematics. Instead it uses a series of analogies to explain the phenomenon in a way that will hopefully be easier to follow for someone who does not necessarily have a scientific background.</p>
+<h2>Water Waves</h2>
+<p>To begin, we will look at how waves behave in the sea, and for this we will imagine a port. A good example for our purposes is the Port of Dover, a major shipping hub on the southeast coast of England. The reason for this choice is that we are not actually interested in the port itself, but in the sea wall that surrounds it. Let's for the moment imagine that the sea wall has a single gap in it to allow ships to pass in and out (Dover in fact has two gaps, but we'll get to that later). The result will look something like the image below.</p>
+<figure>
+<svg id="single-slit" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
+<path d="M5 50 Q 60 -25 115 50" stroke="black" fill="transparent" />
+<path d="M20 45 Q 60 -5 100 45" stroke="lightskyblue" fill="transparent" />
+<path d="M27 48 Q 60 6 93 48" stroke="lightskyblue" fill="transparent" />
+<path d="M34 51 Q 60 17 86 51" stroke="lightskyblue" fill="transparent" />
+<path d="M41 54 Q 60 28 79 54" stroke="lightskyblue" fill="transparent" />
+<path d="M48 57 Q 60 39 72 57" stroke="lightskyblue" fill="transparent" />
+<line x1="10" y1="43" x2="29" y2="55" stroke="black" />
+<line x1="6" y1="48" x2="25" y2="60" stroke="black" />
+<line x1="110" y1="43" x2="91" y2="55" stroke="black" />
+<line x1="114" y1="48" x2="95" y2="60" stroke="black" />
+<circle cx="30" cy="60" r="5" fill="none" stroke="black" stroke-width="1" />
+<circle cx="90" cy="60" r="5" fill="none" stroke="black" stroke-width="1" />
+<line x1="35" y1="58" x2="50" y2="60" stroke="black" />
+<line x1="33" y1="64" x2="49" y2="66" stroke="black" />
+<line x1="50" y1="60" x2="49" y2="66" stroke="black" />
+<line x1="85" y1="58" x2="70" y2="60" stroke="black" />
+<line x1="87" y1="64" x2="71" y2="66" stroke="black" />
+<line x1="70" y1="60" x2="71" y2="66" stroke="black" />
+<line x1="20" y1="72" x2="100" y2="72" stroke="lightskyblue" />
+<line x1="20" y1="80" x2="100" y2="80" stroke="lightskyblue" />
+<line x1="20" y1="88" x2="100" y2="88" stroke="lightskyblue" />
+<line x1="20" y1="96" x2="100" y2="96" stroke="lightskyblue" />
+<line x1="10" y1="95" x2="10" y2="70" stroke="firebrick" />
+<line x1="7" y1="75" x2="10" y2="70" stroke="firebrick" />
+<line x1="13" y1="75" x2="10" y2="70" stroke="firebrick" />
+</svg>
+<figcaption>Figure 1 - Water waves passing through a sea wall.</figcaption>
+</figure>
+
+<p>Now consider how the waves will behave when they come into contact with this sea wall and, more specifically, the gap. The waves will come in from the sea, and curve after they have passed through the gap, as seen in the image below. This curvature is due to the fact that the gap acts as a new source of waves. A similar phenomenon occurs when a drop of water falls onto the surface of a pond, with the point of contact acting as a source of ripples (waves) expanding outwards.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<h3>Two Gaps</h3>
+<p>Now imagine that the port becomes extremely busy, so that there now need to be two gaps in the wall, one for incoming ships and one for outgoing.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>The waves will pass through and spread out like before, but now there are two different sources. The waves from these sources will spread out and mingle with one another. This is called <em>interference</em>, because the waves are said to 'interfere' with one another. It's easy enough to see what will happen in this case, because waves on the sea are quite simple, they look like this:</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>When two waves from different sources merge, they get added together:</p>
+<ul>
+<li>Two peaks make a bigger peak.</li>
+<li>Two troughs make a bigger trough.</li>
+<li>A peak and a trough cancel out.</li>
+</ul>
+<p>When waves from two sources mingle in this way, a stripy pattern emerges, as in some areas the waves cancel out and in others they combine.</p>
+<h2>Tennis Balls</h2>
+<p>Imagine you're playing tennis with a ball machine. If you're not familiar with this concept, a ball machine sits on one side of a tennis court and fires balls one-by-one over the net to a player on the other side.</p>
+<p>Imagine you had set one of these contraptions up and wanted to see the spread of different paths through the air that the balls take. You find yourself a shed and knock out one of the walls, placing it on the other side of the court to the ball machine. You then pour a can of paint into the hopper of the ball machine. Now when you start firing balls across, they will hit the shed wall, and leave a pock-marked pattern.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>At this point, this might seem like a silly thing to do. Well, now we're going to make it sillier. Knock another wall out of your shed, and cut a thing rectangular slit in it. Now place this wall in front of the first one.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>Now if you run the ball machine, the balls that make it to the back wall will leave a single strip of painted marks.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>OK, let's go one step further in what is shaping up to be a fairly odd afternoon, and cut a second slot in the front shed wall. Running the experiment again results in, probably not all that surprisingly, two strips appearing on the back wall.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>Now, possibly at this point, if you've made it this far, you might be wondering what the hell is going on, and why you have nothing better to do with your afternoon than make a complete mess of a tennis court. However, if you look more closely at what you've built you will hopefully notice that we now have a situation similar to the one we had previously with the sea and the harbour.</p>
+<p>The sea wall with two gaps corresponds to the front shed wall with two slits, and the harbour behind corresponds to the back shed wall where the impact pattern appears. However, the important difference is that the first example involved waves, and the second particles. The first produced a stripy, continuous interference pattern, the second produced two simple strips where the balls came through the slits. Waves and particles clearly behave differently. In fact, why would you even compare them?</p>
+<h2>Scaling Down</h2>
+<p>OK, let's now take our tennis experiment and scale it down. We're going to have teeny-tiny shed walls and a teeny-tiny ball machine. Also, let's do some more clever engineering and have our ball machine fire <em>electrons</em> instead of tennis balls. You've probably heard of electrons, but for the record they're tiny particles that exist in atoms. They are also responsible for making electricity work (the clue is in the name, electron).</p>
+<p>Now, note that we refer to electrons here as particles. This is known because experiments have been performed that show that they act with particle-like behaviour, as the tennis balls do above. However, just to make sure, we will temporarily lift the slits out of the way, and fire some of them at the rear shed wall, which, for the sake of a change, we will call the 'screen'.</p>
+<p>As might be expected, the result is a pockmark pattern spread out across the screen, such as you might get when little balls of 'stuff' have been fired at it, as with the tennis balls. So far, so good... so what? We've swapped out tennis balls for electrons and found that they act in pretty much the same way, because they're both particles. Presumably, if we drop the slits back in and fire some electrons we will achieve the same result as we did for the tennis balls, two strips of impact marks.</p>
+<p>OK, let's go ahead and do that for the sake of consistency with our previous examples if nothing else. We will fire a beam of electrons at the pair of slits and observe the pattern that appears on the screen behind, which turns out to be... a stripy interference pattern.</p>
+<p>Wait, what? We established in the harbour example that interference patterns occur for waves. But we also established that the electron is known to be a particle, so what is going on?</p>
+<p>As it happens, the pattern that the electrons paint on the screen here is still a series of impact points, as is consistent for particle-like behaviour. However, the 'dots' are organised in a series of stripes, forming what is quite clearly an interference pattern.</p>
+<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<p>When we saw the electron exhibiting particle-like behaviour, we called it a particle. Now we've seen it exhibiting wave-like behaviour, so possibly we could call it a wave. But those experiments in which it acts like a particle will not go away, so we can't say that is just a wave either. The only option left is to say that it is both, a particle <em>and</em> a wave.</p>
+<p>This is the point where the mind tends to get a bit uncomfortable, since it is quite difficult, perhaps impossible, to picture this. Unfortunately, there is nothing that says the universe must provide convenient pictures that are easy for the human brain to visualise. This is what the experiments say, and so it is the best explanation we have: the electron is <em>both</em> a particle <em>and</em> a wave.</p>
+<script type="text/javascript" src="./"></script></main>
+</body>
+</html>
