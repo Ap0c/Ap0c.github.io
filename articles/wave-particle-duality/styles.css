@@ -18,7 +18,7 @@ svg {
 	margin: 2% 5%;
 }
 
-#single-slit {
+#single-slit, #double-slit {
 	margin-left: 20%;
 	margin-right: 20%;
 	width: 60%;
