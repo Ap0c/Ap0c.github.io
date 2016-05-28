@@ -64,17 +64,17 @@
 <figure>
 <svg id="double-slit" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
 <!-- Port -->
-<path d="M5 50 Q 60 -25 115 50" stroke="black" fill="transparent" />
-<line x1="10" y1="43" x2="37" y2="55" stroke="black" />
-<line x1="6" y1="48" x2="35" y2="61" stroke="black" />
-<line x1="110" y1="43" x2="83" y2="55" stroke="black" />
-<line x1="114" y1="48" x2="85" y2="61" stroke="black" />
-<line x1="83" y1="55" x2="85" y2="61" stroke="black" />
-<line x1="53" y1="56" x2="67" y2="56" stroke="black" />
-<line x1="53" y1="62" x2="67" y2="62" stroke="black" />
-<line x1="53" y1="56" x2="53" y2="62" stroke="black" />
-<line x1="67" y1="56" x2="67" y2="62" stroke="black" />
-<line x1="37" y1="55" x2="35" y2="61" stroke="black" />
+<path d="M5 50 Q 60 -25 115 50" stroke="gray" fill="transparent" />
+<line x1="10" y1="43" x2="37" y2="55" stroke="gray" />
+<line x1="6" y1="48" x2="35" y2="61" stroke="gray" />
+<line x1="110" y1="43" x2="83" y2="55" stroke="gray" />
+<line x1="114" y1="48" x2="85" y2="61" stroke="gray" />
+<line x1="83" y1="55" x2="85" y2="61" stroke="gray" />
+<line x1="53" y1="56" x2="67" y2="56" stroke="gray" />
+<line x1="53" y1="62" x2="67" y2="62" stroke="gray" />
+<line x1="53" y1="56" x2="53" y2="62" stroke="gray" />
+<line x1="67" y1="56" x2="67" y2="62" stroke="gray" />
+<line x1="37" y1="55" x2="35" y2="61" stroke="gray" />
 <!-- Interfering Waves -->
 <!-- Centre -->
 <path d="M55 50 Q 60 48 65 50" stroke="lightskyblue" fill="transparent" />
@@ -128,8 +128,48 @@
 <h2>Tennis Balls</h2>
 <p>Imagine you're playing tennis with a ball machine. If you're not familiar with this concept, a ball machine sits on one side of a tennis court and fires balls one-by-one over the net to a player on the other side.</p>
 <p>Imagine you had set one of these contraptions up and wanted to see the spread of different paths through the air that the balls take. You find yourself a shed and knock out one of the walls, placing it on the other side of the court to the ball machine. You then pour a can of paint into the hopper of the ball machine. Now when you start firing balls across, they will hit the shed wall, and leave a pock-marked pattern.</p>
-<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
-<p>At this point, this might seem like a silly thing to do. Well, now we're going to make it sillier. Knock another wall out of your shed, and cut a thing rectangular slit in it. Now place this wall in front of the first one.</p>
+<figure>
+<svg id="tennis" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 100">
+    <!-- Ball Machine -->
+    <rect x="10" y="35" width="40" height="30" stroke="gray" fill="transparent"></rect>
+    <line x1="15" y1="35" x2="12" y2="30" stroke="gray" />
+    <line x1="12" y1="30" x2="23" y2="30" stroke="gray" />
+    <line x1="20" y1="35" x2="23" y2="30" stroke="gray" />
+    <line x1="10" y1="100" x2="20" y2="65" stroke="gray" />
+    <line x1="50" y1="100" x2="40" y2="65" stroke="gray" />
+    <rect x="50" y="42" width="5" height="10" stroke="gray" fill="transparent"></rect>
+    <!-- Net -->
+    <line x1="100" y1="60" x2="100" y2="90" stroke="gray" />
+    <line x1="110" y1="50" x2="110" y2="100" stroke="gray" />
+    <line x1="100" y1="60" x2="110" y2="50" stroke="gray" />
+    <line x1="100" y1="90" x2="110" y2="100" stroke="gray" />
+    <line x1="103" y1="93" x2="103" y2="57" stroke="gray" />
+    <line x1="106" y1="96" x2="106" y2="54" stroke="gray" />
+    <line x1="100" y1="70" x2="110" y2="65" stroke="gray" />
+    <line x1="100" y1="80" x2="110" y2="85" stroke="gray" />
+    <!-- Wall -->
+    <line x1="180" y1="10" x2="180" y2="90" stroke="gray" />
+    <line x1="200" y1="0" x2="200" y2="100" stroke="gray" />
+    <line x1="180" y1="10" x2="200" y2="0" stroke="gray" />
+    <line x1="180" y1="90" x2="200" y2="100" stroke="gray" />
+    <ellipse cx="184" cy="25" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="189" cy="35" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="185" cy="45" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="192" cy="20" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="187" cy="70" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="190" cy="57" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="195" cy="80" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="194" cy="43" rx="2" ry="5" stroke="green" fill="transparent" />
+    <ellipse cx="185" cy="84" rx="2" ry="5" stroke="green" fill="transparent" />
+    <!-- Ball -->
+    <circle cx="120" cy="40" r="5" fill="transparent" stroke="green" />
+    <path d="M60 45 Q 80 40 110 39" stroke="gray" fill="transparent" />
+    <path d="M60 48 Q 80 43 110 42" stroke="gray" fill="transparent" />
+</svg>
+<figcaption>Figure 5 - A ball machine fires tennis balls across the court to hit a shed wall.</figcaption>
+</figure>
+
+<p>At this point, this might seem like a silly thing to do. Well, now we're going to make it sillier. Knock another wall out of your shed, and cut a thin rectangular slit in it. Now place this wall in front of the first one.</p>
 <p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
 <p>Now if you run the ball machine, the balls that make it to the back wall will leave a single strip of painted marks.</p>
 <p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
