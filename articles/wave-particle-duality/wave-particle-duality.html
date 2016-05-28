@@ -17,24 +17,24 @@
 <p>To begin, we will look at how waves behave in the sea, and for this we will imagine a port. A good example for our purposes is the Port of Dover, a major shipping hub on the southeast coast of England. The reason for this choice is that we are not actually interested in the port itself, but in the sea wall that surrounds it. Let's for the moment imagine that the sea wall has a single gap in it to allow ships to pass in and out (Dover in fact has two gaps, but we'll get to that later). The result will look something like the image below.</p>
 <figure>
 <svg id="single-slit" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
-<path d="M5 50 Q 60 -25 115 50" stroke="black" fill="transparent" />
+<path d="M5 50 Q 60 -25 115 50" stroke="gray" fill="transparent" />
 <path d="M20 45 Q 60 -5 100 45" stroke="lightskyblue" fill="transparent" />
 <path d="M27 48 Q 60 6 93 48" stroke="lightskyblue" fill="transparent" />
 <path d="M34 51 Q 60 17 86 51" stroke="lightskyblue" fill="transparent" />
 <path d="M41 54 Q 60 28 79 54" stroke="lightskyblue" fill="transparent" />
 <path d="M48 57 Q 60 39 72 57" stroke="lightskyblue" fill="transparent" />
-<line x1="10" y1="43" x2="29" y2="55" stroke="black" />
-<line x1="6" y1="48" x2="25" y2="60" stroke="black" />
-<line x1="110" y1="43" x2="91" y2="55" stroke="black" />
-<line x1="114" y1="48" x2="95" y2="60" stroke="black" />
-<circle cx="30" cy="60" r="5" fill="none" stroke="black" stroke-width="1" />
-<circle cx="90" cy="60" r="5" fill="none" stroke="black" stroke-width="1" />
-<line x1="35" y1="58" x2="50" y2="60" stroke="black" />
-<line x1="33" y1="64" x2="49" y2="66" stroke="black" />
-<line x1="50" y1="60" x2="49" y2="66" stroke="black" />
-<line x1="85" y1="58" x2="70" y2="60" stroke="black" />
-<line x1="87" y1="64" x2="71" y2="66" stroke="black" />
-<line x1="70" y1="60" x2="71" y2="66" stroke="black" />
+<line x1="10" y1="43" x2="29" y2="55" stroke="gray" />
+<line x1="6" y1="48" x2="25" y2="60" stroke="gray" />
+<line x1="110" y1="43" x2="91" y2="55" stroke="gray" />
+<line x1="114" y1="48" x2="95" y2="60" stroke="gray" />
+<circle cx="30" cy="60" r="5" fill="none" stroke="gray" stroke-width="1" />
+<circle cx="90" cy="60" r="5" fill="none" stroke="gray" stroke-width="1" />
+<line x1="35" y1="58" x2="50" y2="60" stroke="gray" />
+<line x1="33" y1="64" x2="49" y2="66" stroke="gray" />
+<line x1="50" y1="60" x2="49" y2="66" stroke="gray" />
+<line x1="85" y1="58" x2="70" y2="60" stroke="gray" />
+<line x1="87" y1="64" x2="71" y2="66" stroke="gray" />
+<line x1="70" y1="60" x2="71" y2="66" stroke="gray" />
 <line x1="20" y1="72" x2="100" y2="72" stroke="lightskyblue" />
 <line x1="20" y1="80" x2="100" y2="80" stroke="lightskyblue" />
 <line x1="20" y1="88" x2="100" y2="88" stroke="lightskyblue" />
@@ -47,7 +47,18 @@
 </figure>
 
 <p>Now consider how the waves will behave when they come into contact with this sea wall and, more specifically, the gap. The waves will come in from the sea, and curve after they have passed through the gap, as seen in the image below. This curvature is due to the fact that the gap acts as a new source of waves. A similar phenomenon occurs when a drop of water falls onto the surface of a pond, with the point of contact acting as a source of ripples (waves) expanding outwards.</p>
-<p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
+<figure>
+<svg id="pond-ripples" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="3" fill="lightskyblue" stroke="lightskyblue" stroke-width="1" />
+    <circle cx="50" cy="50" r="8" fill="none" stroke="lightskyblue" stroke-width="1" />
+    <circle cx="50" cy="50" r="18" fill="none" stroke="lightskyblue" stroke-width="1" />
+    <circle cx="50" cy="50" r="28" fill="none" stroke="lightskyblue" stroke-width="1" />
+    <circle cx="50" cy="50" r="38" fill="none" stroke="lightskyblue" stroke-width="1" />
+    <circle cx="50" cy="50" r="48" fill="none" stroke="lightskyblue" stroke-width="1" />
+</svg>
+<figcaption>Figure 2 - A droplet of water landing in a pond creates a new source of waves that ripple outward.</figcaption>
+</figure>
+
 <h3>Two Gaps</h3>
 <p>Now imagine that the port becomes extremely busy, so that there now need to be two gaps in the wall, one for incoming ships and one for outgoing.</p>
 <p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100%" height="100%" stroke="black" fill="white" /><line x1="20" y1="20" x2="80" y2="80" stroke="black" stroke-width="2" /></svg></p>
