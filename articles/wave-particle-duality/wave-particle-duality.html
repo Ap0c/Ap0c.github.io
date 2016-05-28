@@ -17,12 +17,23 @@
 <p>To begin, we will look at how waves behave in the sea, and for this we will imagine a port. A good example for our purposes is the Port of Dover, a major shipping hub on the southeast coast of England. The reason for this choice is that we are not actually interested in the port itself, but in the sea wall that surrounds it. Let's for the moment imagine that the sea wall has a single gap in it to allow ships to pass in and out (Dover in fact has two gaps, but we'll get to that later). The result will look something like the image below.</p>
 <figure>
 <svg id="single-slit" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
+<!-- Land -->
+<line x1="5" y1="5" x2="23" y2="23" stroke="green" />
+<line x1="5" y1="15" x2="18" y2="28" stroke="green" />
+<line x1="5" y1="25" x2="13" y2="33" stroke="green" />
+<line x1="5" y1="35" x2="9" y2="39" stroke="green" />
+<line x1="15" y1="5" x2="29" y2="19" stroke="green" />
+<line x1="25" y1="5" x2="35" y2="15" stroke="green" />
+<line x1="35" y1="5" x2="42" y2="12" stroke="green" />
+<line x1="45" y1="5" x2="50" y2="10" stroke="green" />
+<line x1="55" y1="5" x2="59" y2="9" stroke="green" />
+<line x1="65" y1="5" x2="70" y2="10" stroke="green" />
+<line x1="75" y1="5" x2="85" y2="15" stroke="green" />
+<line x1="85" y1="5" x2="115" y2="35" stroke="green" />
+<line x1="95" y1="5" x2="115" y2="25" stroke="green" />
+<line x1="105" y1="5" x2="115" y2="15" stroke="green" />
+<!-- Port -->
 <path d="M5 50 Q 60 -25 115 50" stroke="gray" fill="transparent" />
-<path d="M20 45 Q 60 -5 100 45" stroke="lightskyblue" fill="transparent" />
-<path d="M27 48 Q 60 6 93 48" stroke="lightskyblue" fill="transparent" />
-<path d="M34 51 Q 60 17 86 51" stroke="lightskyblue" fill="transparent" />
-<path d="M41 54 Q 60 28 79 54" stroke="lightskyblue" fill="transparent" />
-<path d="M48 57 Q 60 39 72 57" stroke="lightskyblue" fill="transparent" />
 <line x1="10" y1="43" x2="29" y2="55" stroke="gray" />
 <line x1="6" y1="48" x2="25" y2="60" stroke="gray" />
 <line x1="110" y1="43" x2="91" y2="55" stroke="gray" />
@@ -35,10 +46,17 @@
 <line x1="85" y1="58" x2="70" y2="60" stroke="gray" />
 <line x1="87" y1="64" x2="71" y2="66" stroke="gray" />
 <line x1="70" y1="60" x2="71" y2="66" stroke="gray" />
+<!-- Waves -->
+<path d="M20 45 Q 60 -5 100 45" stroke="lightskyblue" fill="transparent" />
+<path d="M27 48 Q 60 6 93 48" stroke="lightskyblue" fill="transparent" />
+<path d="M34 51 Q 60 17 86 51" stroke="lightskyblue" fill="transparent" />
+<path d="M41 54 Q 60 28 79 54" stroke="lightskyblue" fill="transparent" />
+<path d="M48 57 Q 60 39 72 57" stroke="lightskyblue" fill="transparent" />
 <line x1="20" y1="72" x2="100" y2="72" stroke="lightskyblue" />
 <line x1="20" y1="80" x2="100" y2="80" stroke="lightskyblue" />
 <line x1="20" y1="88" x2="100" y2="88" stroke="lightskyblue" />
 <line x1="20" y1="96" x2="100" y2="96" stroke="lightskyblue" />
+<!-- Arrow -->
 <line x1="10" y1="95" x2="10" y2="70" stroke="firebrick" />
 <line x1="7" y1="75" x2="10" y2="70" stroke="firebrick" />
 <line x1="13" y1="75" x2="10" y2="70" stroke="firebrick" />
@@ -63,6 +81,21 @@
 <p>Now imagine that the port becomes extremely busy, so that there now need to be two gaps in the wall, one for incoming ships and one for outgoing.</p>
 <figure>
 <svg id="double-slit" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100">
+<!-- Land -->
+<line x1="5" y1="5" x2="23" y2="23" stroke="green" />
+<line x1="5" y1="15" x2="18" y2="28" stroke="green" />
+<line x1="5" y1="25" x2="13" y2="33" stroke="green" />
+<line x1="5" y1="35" x2="9" y2="39" stroke="green" />
+<line x1="15" y1="5" x2="29" y2="19" stroke="green" />
+<line x1="25" y1="5" x2="35" y2="15" stroke="green" />
+<line x1="35" y1="5" x2="42" y2="12" stroke="green" />
+<line x1="45" y1="5" x2="50" y2="10" stroke="green" />
+<line x1="55" y1="5" x2="59" y2="9" stroke="green" />
+<line x1="65" y1="5" x2="70" y2="10" stroke="green" />
+<line x1="75" y1="5" x2="85" y2="15" stroke="green" />
+<line x1="85" y1="5" x2="115" y2="35" stroke="green" />
+<line x1="95" y1="5" x2="115" y2="25" stroke="green" />
+<line x1="105" y1="5" x2="115" y2="15" stroke="green" />
 <!-- Port -->
 <path d="M5 50 Q 60 -25 115 50" stroke="gray" fill="transparent" />
 <line x1="10" y1="43" x2="37" y2="55" stroke="gray" />
